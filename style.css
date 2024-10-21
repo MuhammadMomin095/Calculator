@@ -1,0 +1,89 @@
+/* Body styling for dark theme */
+body {
+    font-family: Arial, sans-serif; /* Font style */
+    display: flex; /* Flex layout for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+/* Calculator styling */
+.calculator {
+    background-color: #1e1e1e; /* Dark background for calculator */
+    border: 1px solid #333; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 0 20px rgba(255, 152, 0, 0.7); /* Orange shadow effect */
+    padding: 20px; /* Padding inside calculator */
+    width: 300px; /* Fixed width */
+}
+
+/* Display styling */
+#display {
+    width: 94%; /* Width of display */
+    height: 50px; /* Height of display */
+    font-size: 24px; /* Font size */
+    text-align: right; /* Right-aligned text */
+    padding: 10px; /* Padding */
+    margin-bottom: 20px; /* Space below display */
+    border: 1px solid #444; /* Lighter border for display */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #333; /* Dark background for display */
+    color: #ffffff; /* White text */
+}
+
+/* Buttons grid layout */
+.buttons {
+    display: grid; /* Grid layout for buttons */
+    grid-template-columns: repeat(4, 1fr); /* Four equal columns */
+    gap: 10px; /* Space between buttons */
+}
+
+/* Button styling */
+.button {
+    width: 100%; /* Full width */
+    height: 50px; /* Height of buttons */
+    font-size: 18px; /* Font size */
+    background-color: #2a2a2a; /* Dark button background */
+    border: 1px solid #444; /* Lighter border for buttons */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    color: #ffffff; /* White text */
+    transition: background-color 0.2s; /* Smooth background transition */
+}
+
+/* Button hover effect */
+.button:hover {
+    background-color: #3a3a3a; /* Lighter gray on hover */
+}
+
+/* Operator button styling */
+.operator {
+    background-color: #ff9800; /* Vibrant orange for operator buttons */
+    color: #ffffff; /* White text */
+}
+
+.operator:hover {
+    background-color: #e68900; /* Darker orange on hover */
+}
+
+/* Equals button styling */
+.equals {
+    background-color: #4caf50; /* Bright green for equals button */
+    color: #ffffff; /* White text */
+}
+
+.equals:hover {
+    background-color: #45a045; /* Darker green on hover */
+}
+
+/* Clear button styling */
+.clear {
+    background-color: #f44336; /* Strong red for clear button */
+    color: #ffffff; /* White text */
+}
+
+.clear:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
